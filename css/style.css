@@ -63,7 +63,28 @@
 
 /** body part strt ho rha hai **/
 
+.body{
+    margin-top: 80px;
+ display: flex;
+ justify-content: center;
+ align-items: flex-start;
+  
  
+}
+.image-tv {
+    background-image: url(../images/tv.webp);
+    background-size: cover;
+    height: 430px;
+    width: 764px;
+     
+}
+ .image-paper {
+    background-image: url(../images/paper.jpg);
+    background-size: cover;
+    height: 430px;
+    width: 338px;
+     
+ }
 
  .heading {
     font-family: System-ui;
