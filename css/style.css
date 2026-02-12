@@ -1,0 +1,148 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: #f7f7f3;
+}
+
+#heading {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2px;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    
+}
+.logo-contaicer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+}
+
+
+.logo {
+    background-image: url(../images/logo.webp);
+    background-size: cover;
+    padding-top: 2px;
+    height: 69px;
+    width: 70px;
+    transition: all 0.3s ease-in-out;
+     
+    
+}
+.navbar2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.a1
+{
+    text-decoration: inline;
+    padding-right: 13px;
+    font-size: 1.2rem;
+    color: black;
+    letter-spacing: 0.1rem;
+      font-family: system-ui;
+}
+
+.a2 {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+    letter-spacing: 0.1rem;
+    font-family: system-ui;
+}
+
+/** body part strt ho rha hai **/
+
+ 
+
+ .heading {
+    font-family: System-ui;
+    font-size: 1.2rem;
+    margin-top: 70px;
+    margin-bottom: 60px;
+    padding-left: 60px;
+     
+ }
+ .section3 {
+    padding-left: 60px;
+    display: flex;
+    margin-bottom: 50px;
+     
+    
+ }
+
+  
+ #subscribe {
+    background-color: #303b43;
+    height: 50px;
+    width: 97px;
+    font-size: large;
+    border-radius: 6px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+     
+ }
+
+ #email {
+    height: 50px;
+    width: 318px;
+    text-align: start;
+    padding-left: 10px;
+    margin-right: 10px;
+    border: 1px solid black;
+    border-radius: 6px;
+ }
+ .footer{
+    height: 100px;
+    padding-left: 60px;
+    padding-top: 60px;
+    padding-bottom: 15px;
+     
+    
+    
+    display: flex;
+ }
+ .copyright {
+    padding-right: 10px;
+    color: rgb(133, 126, 126);
+    margin-top: 15px;
+    font-family: inherit;
+    font-style: normal;
+ }
+ .privacy {
+    margin-top: 15px;
+    
+    justify-content: space-between;
+ }
+ hr{
+    margin-block: 0;
+    border: none;
+    border-top: 1px solid #ccc;
+    opacity: 0.5;
+ }
+ .aa1{
+    padding-right: 10px   ;
+ }
+
+ /** yaha say body part stary ho rha hai**/
+
+ 
+.container {
+  display: flex;
+  flex-direction: column;  
+  align-items: center;     
+  justify-content: center;  
+  gap: 15px;
+ }
+  
